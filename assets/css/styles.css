@@ -8,4 +8,89 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: rgb(48, 93, 129);
+    color: white;
+}
+
+
+
+.container {
+    margin: 0em 2em;
+}
+
+.header {
+    display: flex;
+    padding-top: 0.5em;
+    margin-bottom: 2.5em;
+}
+
+.menuHeader {
+    list-style: none;
+    display: flex;
+    gap: 2em;
+    font-weight: bolder;
+}
+
+.b1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15em;
+}
+
+.logoHeader {
+    width: 5%;
+}
+
+.b2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2em;
+}
+
+.b2 input {
+    width: 12em;
+    height: 2.3em;
+    border-radius: 0.6em;
+    padding: 0 0.2em;
+    border: none;
+}
+
+.main {
+    display: flex;
+    gap: 10em;
+    align-items: center;
+}
+
+p {
+    margin-bottom: 0.5em;
+    text-align: left;
+    text-justify: auto;
+}
+
+.description-character,
+.koren-name-character {
+    font-weight: lighter;
+    margin-bottom: 0.7em;
+}
+
+.name-character{
+    font-weight: bolder;
+    font-size: 2.5em;
+}
+
+.foto-character {
+    width: 140%;
+}
+
+.list-navigation li {
+    list-style: none;
+    margin-bottom: 0.5em;
+}
+
+.list-navigation li:hover {
+    list-style: disc;
+    border-bottom: 0.1px solid black;
+    cursor: pointer;
 }
