@@ -8,14 +8,14 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: rgb(48, 93, 129);
+    background-image: url("../img/imageBg.png");
     color: white;
 }
 
 
 
 .container {
-    margin: 0em 2em;
+    margin: 0em 4em;
 }
 
 .header {
@@ -59,7 +59,8 @@ body {
 
 .main {
     display: flex;
-    gap: 10em;
+    flex-direction: column;
+    gap: 20em;
     align-items: center;
 }
 
@@ -81,16 +82,25 @@ p {
 }
 
 .foto-character {
-    width: 140%;
+    width: 100%;
 }
 
 .list-navigation li {
+    display: flex;
     list-style: none;
     margin-bottom: 0.5em;
+    border: 1px solid white;
 }
 
-.list-navigation li:hover {
-    list-style: disc;
-    border-bottom: 0.1px solid black;
-    cursor: pointer;
+
+.foto-main {
+    width: 33%;
+    top: 0;
+    bottom: 0;
+    margin-left: 72em;
+    position: absolute;
+}
+
+.border {
+    padding: 1em 0em;
 }
